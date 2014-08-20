@@ -1,13 +1,17 @@
 package br.com.pontualimportbrindes.staging;
 
 import java.io.*;
+import java.awt.*;
+
+import javax.swing.*;
 
 import org.jopendocument.dom.*;
 import org.jopendocument.dom.spreadsheet.*;
 
 import static br.com.pontualimportbrindes.util.Convenience.print;
 
-public class OpenODS {
+public class ODSTable {
+    // http://docs.oracle.com/javase/tutorial/uiswing/components/table.html#data    
     public static void main(String[] args) {
         final String filename = "C:\\Users\\heitor\\Desktop\\samplecodigo.ods";
         print("Open ODS and populate Product instances");
