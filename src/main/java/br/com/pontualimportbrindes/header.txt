@@ -1,0 +1,5 @@
+package br.com.pontualimportbrindes;
+
+import br.com.pontualimportbrindes.util.*;
+import static br.com.pontualimportbrindes.util.Convenience.print;
+
